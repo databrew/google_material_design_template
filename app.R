@@ -1,10 +1,11 @@
 library(shiny)
 library(shinymaterial)
 
-# SEE HERE FOR HELP 
-# https://ericrayanderson.github.io/shinymaterial/
-# Wrap shinymaterial apps in material_page
-# oicons :http://materializecss.com/icons.html
+# overall help here: https://ericrayanderson.github.io/shinymaterial/
+# color universe here: http://materializecss.com/color.html
+# icon universe here :http://materializecss.com/icons.html
+
+# start with material page
 material_page(
   material_row(
     material_column(
@@ -19,7 +20,7 @@ material_page(
 
 ui <- material_page(
   title = "Databrew material page",
-  nav_bar_color = "green darken-4",
+  nav_bar_color = "blue",
   nav_bar_fixed = TRUE,
   
   
@@ -64,7 +65,7 @@ ui <- material_page(
                       # reference webiste 
                       tags$a(
                         target = "_blank",
-                        class = "btn green darken-4",
+                        class = "btn orange",
                         href = "databrew.cc",
                         "Visite our website!"
                       )
