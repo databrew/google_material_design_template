@@ -5,19 +5,6 @@ library(shinymaterial)
 # color universe here: http://materializecss.com/color.html
 # icon universe here :http://materializecss.com/icons.html
 
-# start with material page
-material_page(
-  material_row(
-    material_column(
-      width = 12,
-      material_file_input(
-        input_id = "file_1",
-        label = "file"
-      )
-    )
-    
-  ))
-
 ui <- material_page(
   title = "Databrew material page",
   nav_bar_color = "blue",
