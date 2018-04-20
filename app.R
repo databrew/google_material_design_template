@@ -8,11 +8,11 @@ library(shinymaterial)
 ui <- material_page(
   title = "Databrew material page",
   nav_bar_color = "blue",
-  nav_bar_fixed = TRUE,
+  nav_bar_fixed = FALSE,
   
   
   # Place side-nav in the beginning of the UI
-  material_side_nav(fixed = TRUE, # Place side-nav tabs within side-nav
+  material_side_nav(fixed = FALSE, # Place side-nav tabs within side-nav
                     material_side_nav_tabs(side_nav_tabs = c("Example tab 1" = "example_1",
                                                              "Example tab 2" = "example_2",
                                                              "About" = "about_section"),
